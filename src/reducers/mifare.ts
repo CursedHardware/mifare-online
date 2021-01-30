@@ -2,14 +2,12 @@ import { loadMifare, updateMifare } from "actions/mifare";
 import { produce } from "immer";
 import { reducerWithInitialState } from "typescript-fsa-reducers";
 
-import cardEmpty from "@assets/card-empty.mfd";
-
 interface IState {
     blocks?: Buffer;
 }
 
 const defaultState: IState = {
-    blocks: cardEmpty,
+    blocks: undefined,
 };
 
 export default reducerWithInitialState(defaultState)
