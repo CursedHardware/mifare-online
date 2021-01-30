@@ -1,0 +1,60 @@
+.toolbar {
+  margin-bottom: 1em;
+
+  button {
+    &:not(:first-child) {
+      margin-left: 1em;
+    }
+  }
+}
+
+.show-key-modal :global {
+  .modal-body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.editor {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+
+  width: auto;
+
+  b {
+    font-weight: normal;
+  }
+
+  thead > tr > th,
+  tbody > tr > td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .manufacturer-block {
+    color: #93f;
+  }
+
+  .key-a {
+    color: #6f6;
+  }
+
+  .key-b {
+    color: #380;
+  }
+
+  .access-bits {
+    color: #f60;
+
+    cursor: pointer;
+  }
+
+  .access {
+    cursor: pointer;
+
+    &:not(.verified) {
+      background: #f00;
+    }
+  }
+}

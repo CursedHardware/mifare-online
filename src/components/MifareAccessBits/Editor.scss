@@ -1,0 +1,23 @@
+.nav-tab {
+  user-select: none;
+
+  :global(.nav-link) {
+    cursor: pointer;
+  }
+}
+
+.access-bits-block {
+  user-select: none;
+
+  tr {
+    cursor: pointer;
+  }
+
+  tbody td:not(:last-child) {
+    font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+  }
+
+  .selected {
+    background: #ccc;
+  }
+}

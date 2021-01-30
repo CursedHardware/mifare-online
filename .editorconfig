@@ -1,0 +1,14 @@
+root = true
+
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = crlf
+
+[src/**/*.{ts,tsx}]
+indent_size = 4
+indent_style = space
+
+[src/**/*.scss]
+indent_size = 2
+indent_style = space

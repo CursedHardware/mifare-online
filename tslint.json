@@ -1,0 +1,10 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint:latest",
+  "rules": {
+    "no-bitwise": false,
+    "no-implicit-dependencies": false,
+    "object-literal-sort-keys": false,
+    "space-before-function-paren": false,
+  }
+}

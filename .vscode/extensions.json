@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "christian-kohler.npm-intellisense",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-postcss-sorting",
+    "mrmlnc.vscode-scss",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "redhat.vscode-yaml",
+    "sibiraj-s.vscode-scss-formatter",
+  ]
+}

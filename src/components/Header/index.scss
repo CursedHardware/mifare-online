@@ -1,0 +1,32 @@
+:local(.sidebar) {
+  background: #7386d5;
+  color: #fff;
+
+  height: 100vh;
+  transform-origin: bottom left;
+  width: 16rem;
+
+  a {
+    color: #fff;
+    display: block;
+    font-size: 1.1em;
+    padding: 10px;
+    text-decoration: none;
+
+    &:hover {
+      background: #fff;
+      color: #7386d5;
+    }
+
+    &.active {
+      background: #6d7fcc;
+      color: #fff;
+    }
+  }
+}
+
+:local(.header) {
+  background: #6d7fcc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}

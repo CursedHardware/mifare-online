@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*": [
+        "../assets",
+        "../assets/*"
+      ]
+    }
+  },
+  "exclude": [
+    "dist/**/*",
+    "node_modules/**/*"
+  ]
+}
